@@ -957,7 +957,7 @@ const letters = {
     girl: {
 
         title:
-            "Thư từ người Kelly",
+            "Thư của Kelly",
 
         image:
             "images/girl.jpg",
