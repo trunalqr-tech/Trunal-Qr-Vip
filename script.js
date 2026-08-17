@@ -943,7 +943,7 @@ const letters = {
     boy: {
 
         title:
-            "Thư của Tony",
+            "Tony",
 
         image:
             "images/boy.jpg",
@@ -957,7 +957,7 @@ const letters = {
     girl: {
 
         title:
-            "Thư của Kelly",
+            "Kelly",
 
         image:
             "images/girl.jpg",
