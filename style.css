@@ -3707,3 +3707,31 @@ button:active {
         margin-top: 4px !important;
     }
 }
+/* FIX MUSIC PLAYER TRÊN ĐIỆN THOẠI */
+
+@media (max-width: 700px) {
+
+    .music-player {
+        min-height: 900px !important;
+        height: auto !important;
+
+        padding-top: 45px !important;
+        padding-bottom: 45px !important;
+
+        box-sizing: border-box !important;
+    }
+
+    .record-area {
+        width: 100% !important;
+        min-height: 380px !important;
+
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .vinyl {
+        width: 310px !important;
+        height: 310px !important;
+    }
+}
