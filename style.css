@@ -3707,23 +3707,24 @@ button:active {
         margin-top: 4px !important;
     }
 }
-/* FIX MUSIC PLAYER TRÊN ĐIỆN THOẠI */
+/* 📱 FIX MUSIC PLAYER MOBILE */
 
 @media (max-width: 700px) {
 
     .music-player {
-        min-height: 900px !important;
         height: auto !important;
+        min-height: 0 !important;
 
-        padding-top: 45px !important;
-        padding-bottom: 45px !important;
+        padding: 25px 15px 30px !important;
 
         box-sizing: border-box !important;
     }
 
     .record-area {
-        width: 100% !important;
-        min-height: 380px !important;
+        min-height: 0 !important;
+        height: auto !important;
+
+        padding: 10px 0 5px !important;
 
         display: flex !important;
         justify-content: center !important;
@@ -3731,7 +3732,10 @@ button:active {
     }
 
     .vinyl {
-        width: 310px !important;
-        height: 310px !important;
+        width: 270px !important;
+        height: 270px !important;
+
+        max-width: 75vw !important;
+        max-height: 75vw !important;
     }
 }
